@@ -24,6 +24,8 @@ const search = async () => {
     spinner.classList.remove('d-block');
     spinner.classList.add('d-none');
 }
+
+// show phone section
 const showPhones = (obj) => {
     const notFountDiv = document.getElementById('not-found-div')
     if (obj.status) {
