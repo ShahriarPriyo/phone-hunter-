@@ -14,17 +14,13 @@
 }
 .phone-details-seaction{
     width: 80%;
-    /* display: none; */
+    
 }
 table td{
     width: 100%;
 }
 
-.footer-div{
-    height: 120px;
-    background-color: midnightblue;
-    margin-top: 30%;
-}
+
 @media only screen and (max-width: 600px) {
     .footer-div{
         margin-top: 120%;
