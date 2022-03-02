@@ -1,8 +1,7 @@
 //first search function
 
 const search = async () => {
-    // const initialText = document.getElementById('initialText');
-    // initialText.classList.add('d-none');
+
     const showMoreButton = document.getElementById('show-more-btn');
     showMoreButton.classList.add('d-none');
     const spinner = document.getElementById('spinner');
