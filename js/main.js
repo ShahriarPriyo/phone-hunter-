@@ -61,6 +61,8 @@ const showPhones = (obj) => {
             //   console.log(counter);
 
         })
+
+        // check whether phone number excceds 20
         if (counter > 20) {
             showMoreButton.classList.remove('d-none');
             showMoreButton.classList.add('d-block');
@@ -77,7 +79,7 @@ const showPhones = (obj) => {
 x = 21;
 const showMorePhones = () => {
     const phoneArr = document.getElementsByClassName('phone');
-    // console.log(totalPhones);
+
 
     if (x <= totalPhones) {
         let a = 0;
